@@ -1,6 +1,5 @@
 // ejercicio5: realizar un juego para adivinar un numero, para ello generar un numero aleatorio entre 0 y 100 y luego ir pidiendo numeros indicando si es mayor o menor, el porcesos termina cuando el usuario acerta y mostrarmos el numero de intentos 
 
-package programacionjava.clase3;
 import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
 

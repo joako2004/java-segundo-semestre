@@ -3,7 +3,6 @@
 
 // con clase scanner:
 
-package programacionjava.clase3;
 import java.util.Scanner;
 
 public class ejercicioUnoCiclosScanner {

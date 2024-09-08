@@ -1,4 +1,3 @@
-package programacionjava.clase3;
 import javax.swing.JOptionPane;
 
 public class ejercicioDosCiclosJOptionPane {

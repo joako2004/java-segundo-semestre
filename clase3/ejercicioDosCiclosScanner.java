@@ -1,6 +1,5 @@
 // ejercicio 4: pedir numeros hasta que se teclee uno negativo y mostrar cuantos numeros se han introducido
 
-package programacionjava.clase3;
 import java.util.Scanner;
 
 public class ejercicioDosCiclosScanner {
