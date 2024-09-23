@@ -6,14 +6,12 @@ public class ejercicioDosCiclosJOptionPane {
         int contador = 0;
         String input;
 
-        // Solicitar el primer número al usuario
         input = JOptionPane.showInputDialog("Ingrese un número para almacenarlo, para terminar el programa, ingrese un número negativo:");
         numero = Integer.parseInt(input);
 
         while (numero >= 0) {
             contador += 1;
 
-            // Solicitar otro número
             input = JOptionPane.showInputDialog("Ingrese otro número, o un número negativo para terminar:");
             numero = Integer.parseInt(input);
         }

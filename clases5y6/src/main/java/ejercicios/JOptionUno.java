@@ -4,16 +4,17 @@ package ejercicios;
 
 import javax.swing.JOptionPane;
 
-public class EjercicioJOptionPaneUno {
+public class JOptionUno {
+
     public static void main(String[] args) {
 
-        int numero = Integer.parseInt(JOptionPane.showInputDialog("ingrese un numero: "));
+        String input = JOptionPane.showInputDialog("Ingrese un número N");
 
-        JOptionPane.showMessageDialog(null, "los numeros desde 1 a " + numero + " son:");
+        int numero = Integer.parseInt(input);
 
         for (int i = 1; i <= numero; i++) {
             JOptionPane.showMessageDialog(null, i);
         }
-
     }
 }
+
